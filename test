@@ -1,0 +1,25 @@
+Subject: Request for Approval to Remove Vulnerable Container Images from JFrog Repository
+
+Dear Application Team,
+
+We have identified several container images in our JFrog repository that contain high- and critical-severity vulnerabilities (see CVE-2025-1234, CVE-2025-2345, etc.) and are failing Twistlock security scans. Retaining these images in our artifact registry poses a significant risk to our production environment.
+
+Details:
+
+    The attached report (“Detailed_CVE_Report.pdf”) provides a breakdown of each affected image and associated CVEs.
+
+    In-place remediation is not feasible for these images.
+
+    Twistlock will continue to flag these images, preventing successful deployment pipelines.
+
+Action Required:
+
+    Review the attached vulnerability report.
+
+    Provide written approval to delete the identified images from the JFrog repository.
+
+    If retention is absolutely required for legacy systems, please specify which images must be exempted so we can implement appropriate isolation measures.
+
+We kindly request your decision by close of business today to avoid delays in our next deployment cycle. Should you have any questions or require additional information, please contact me directly.
+
+Thank you for your prompt attention to this matter.
